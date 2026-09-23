@@ -1,0 +1,3 @@
+# Historical analysis methods
+
+These scripts preserve the original fitting, extraction and search algorithms. They document all model alternatives, train-only preprocessing and post hoc sensitivity amendments. Their original analysis-directory layout is retained in relative historical paths; they are not the portable quick-start entry points. The portable `scripts/` checks reproduce the primary predictions, functional contrasts, statistical summaries and figure inputs using the included frozen tables. Full legacy prediction and preprocessing outputs are retained in `provenance/phase1_analysis_archive/`. Acquiring the complete original molecular releases is required to recreate the original acquisition workflow.
