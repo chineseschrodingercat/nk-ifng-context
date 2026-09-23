@@ -4,7 +4,7 @@ Reproducible secondary analyses of published tumor–natural killer cell experim
 
 ## Quick start
 
-Download `analysis_code_and_data.zip` from this repository and extract it into a new directory. The archive includes the scripts shown here, verified numerical inputs, frozen predictions, source coordinates, genetic-screen results, and the figure input tables. Run commands from the extracted directory:
+This public repository contains the analysis code and methods documentation. The numerical inputs are supplied separately in `Analysis_Code_and_Data.zip`, the anonymized archive accompanying the manuscript submission. That archive includes the scripts shown here, verified numerical inputs, frozen predictions, source coordinates, genetic-screen results and figure input tables. Extract it into a new directory and run the following commands from that directory:
 
 ```text
 python -m pip install -r requirements.txt
@@ -17,7 +17,7 @@ python scripts/make_extension_figures.py
 
 The first three commands independently check the numerical claims. The last two regenerate all seven figures and require Arial to reproduce the original typography. The archive already contains the reference figure PNGs. Python 3.13.5, NumPy 2.4.3, pandas 2.3.3, SciPy 1.16.3, matplotlib 3.10.0, openpyxl 3.1.5, Pillow 11.1.0 and lxml 5.3.0 were used for the scientific validation.
 
-## Included material
+## Contents of the accompanying analysis archive
 
 - `source_data/`: extracted functional observations, published donor source workbooks, matched molecular inputs, model specifications, all frozen prediction comparisons and sensitivity outputs used by the retained analysis.
 - `analysis/`: calibrated source coordinates, reconstructed functional comparisons, 222,609 genetic-screen rows, the prespecified 21-gene display and 28 mouse observations.
